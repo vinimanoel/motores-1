@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera2 : MonoBehaviour
+public class Camera : MonoBehaviour
 {
     public Transform _alvo1;
     public Transform _alvo2;

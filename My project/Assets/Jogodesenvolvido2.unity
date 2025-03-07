@@ -13518,6 +13518,7 @@ GameObject:
   - component: {fileID: 1585467953}
   - component: {fileID: 1585467955}
   - component: {fileID: 1585467954}
+  - component: {fileID: 1585467956}
   m_Layer: 0
   m_Name: Tilemap (1)
   m_TagString: Untagged
@@ -13627,6 +13628,33 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!50 &1585467956
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585467952}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1676793324
 GameObject:
   m_ObjectHideFlags: 0
@@ -13770,7 +13798,7 @@ GameObject:
   - component: {fileID: 2003088243}
   - component: {fileID: 2003088248}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13939,7 +13967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27c192be3a9674446ae61e666a8fb79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 7
+  velocidade: 6
   focaPulo: 6
   noChao: 0
   andando: 0
